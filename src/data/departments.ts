@@ -4,7 +4,7 @@ import { Trophy, Users, Dumbbell, Music, TableProperties, Medal, Volleyball, Shu
 export interface Department {
   slug: string;
   name: string;
-  icon: React.ComponentType<{ className?: string; size?: number }>;
+  icon: LucideIcon;
   shortDesc: string;
   description: string;
   training: { group: string; day: string; time: string; location: string }[];
