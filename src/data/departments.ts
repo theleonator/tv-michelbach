@@ -1,3 +1,4 @@
+import type { LucideIcon } from "lucide-react";
 import { Trophy, Users, Dumbbell, Music, TableProperties, Medal, Volleyball, Shuffle, MoreHorizontal } from "lucide-react";
 
 export interface Department {
