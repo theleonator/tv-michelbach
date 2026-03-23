@@ -1,0 +1,39 @@
+import { Link } from "react-router-dom";
+import { departments } from "@/data/departments";
+import { ArrowRight } from "lucide-react";
+
+const Abteilungen = () => (
+  <div>
+    <section className="gradient-hero-overlay text-primary-foreground py-20">
+      <div className="container-main">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Unsere Abteilungen</h1>
+        <p className="text-lg text-primary-foreground/90 max-w-xl">Acht Sportarten – ein Verein. Entdecke dein Angebot.</p>
+      </div>
+    </section>
+
+    <section className="section-padding bg-background">
+      <div className="container-main">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {departments.map((dept) => (
+            <Link
+              key={dept.slug}
+              to={`/abteilungen/${dept.slug}`}
+              className="group bg-card rounded-xl p-8 shadow-md card-hover border border-border"
+            >
+              <div className="w-16 h-16 mb-4 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                <dept.icon className="text-primary" size={32} />
+              </div>
+              <h3 className="text-xl font-bold text-foreground mb-2">{dept.name}</h3>
+              <p className="text-sm text-muted-foreground mb-4">{dept.shortDesc}</p>
+              <span className="text-primary font-medium text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
+                Mehr erfahren <ArrowRight size={14} />
+              </span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+);
+
+export default Abteilungen;
