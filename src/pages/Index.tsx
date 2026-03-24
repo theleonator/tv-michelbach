@@ -28,7 +28,6 @@ const Index = () => {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center">
         <img src="/hero-sports.jpg" alt="TV Michelbach Sportanlage" className="absolute inset-0 w-full h-full object-cover" width={1920} height={900} />
-        <div className="absolute inset-0 gradient-hero-overlay" />
         <div className="relative container-main py-20 text-primary-foreground">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-2xl leading-tight">
             Bewegung. Gemeinschaft. Leidenschaft.
