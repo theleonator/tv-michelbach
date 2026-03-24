@@ -67,14 +67,13 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Vereinsvorstellung */}
+     {/* Vereinsvorstellung */}
 <section
   className="section-padding"
   style={{ backgroundColor: "rgba(93, 161, 88, 0.7)" }}
 >
   <div className="container-main max-w-3xl text-center">
 
-    {/* Wrapper für Icon + Bild + Titel */}
     <div className="flex flex-col items-center mb-6">
 
       {/* Quote Icon */}
@@ -99,7 +98,6 @@ const Index = () => {
 
     </div>
 
-    {/* Zitattext */}
     <p className="text-lg text-muted-foreground leading-relaxed">
       "Lasst uns weiter das, was unsere Gründungsmitglieder des TV Michelbach veranlasst hat
       diesen Verein zu gründen, Gemeinschaft, Spaß am Sport und Respekt dem anderen gegenüber
