@@ -70,7 +70,22 @@ const Index = () => {
       {/* Vereinsvorstellung */}
       <section className="section-padding" style={{ backgroundColor: "rgba(146, 208, 103, 0.7)" }}>
         <div className="container-main max-w-3xl text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Willkommen beim TV Michelbach</h2>
+<div className="flex flex-col items-center mb-6">
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    width="42" 
+    height="42" 
+    viewBox="0 0 24 24" 
+    fill="currentColor"
+    className="text-primary/80 mb-3"
+  >
+    <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17V18h6v-8H6.83A2.83 2.83 0 0 1 9.66 6H7.17zm10 0A4.17 4.17 0 0 0 13 10.17V18h6v-8h-2.17A2.83 2.83 0 0 1 21.66 6h-4.49z"/>
+  </svg>
+
+  <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center">
+    Willkommen beim TV Michelbach
+  </h2>
+</div>
           <p className="text-lg text-muted-foreground leading-relaxed">
             "Lasst uns weiter das, was unsere Gründungsmitglieder des TV Michelbach veranlasst hat diesen Verein zu gründen, Gemeinschaft, Spaß am Sport und Respekt dem anderen gegenüber am Leben erhalten."
           </p>
