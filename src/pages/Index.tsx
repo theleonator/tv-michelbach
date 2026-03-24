@@ -72,7 +72,7 @@ const Index = () => {
         <div className="container-main max-w-3xl text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Willkommen beim TV Michelbach</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Seit über 120 Jahren ist der TV Michelbach 1903 e.V. ein fester Bestandteil des sportlichen und gesellschaftlichen Lebens in Michelbach. Mit acht Abteilungen bieten wir ein breites Angebot für alle Altersgruppen – vom Kleinkind bis zum Senior. Bei uns steht die Freude an Bewegung und Gemeinschaft im Mittelpunkt. Werde Teil unserer Vereinsfamilie!
+            "Lasst uns weiter das, was unsere Gründungsmitglieder des TV Michelbach veranlasst hat diesen Verein zu gründen, Gemeinschaft, Spaß am Sport und Respekt dem anderen gegenüber am Leben erhalten."
           </p>
         </div>
       </section>
