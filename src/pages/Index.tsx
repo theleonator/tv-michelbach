@@ -73,24 +73,27 @@ const Index = () => {
 
     <div className="flex flex-col items-center mb-6">
 
-      {/* Quote Icon */}
-      <svg 
-        xmlns="http://www.w3.org/2000/svg" 
-        width="42" 
-        height="42" 
-        viewBox="0 0 24 24" 
-        fill="currentColor"
-        className="text-primary/80 mb-3"
-      >
-        <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17V18h6v-8H6.83A2.83 2.83 0 0 1 9.66 6H7.17zm10 0A4.17 4.17 0 0 0 13 10.17V18h6v-8h-2.17A2.83 2.83 0 0 1 21.66 6h-4.49z"/>
-      </svg>
+  {/* Quote Icon */}
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    width="42" 
+    height="42" 
+    viewBox="0 0 24 24" 
+    fill="currentColor"
+    className="text-primary/80 mb-3"
+  >
+    <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17V18h6v-8H6.83A2.83 2.83 0 0 1 9.66 6H7.17zm10 0A4.17 4.17 0 0 0 13 10.17V18h6v-8h-2.17A2.83 2.83 0 0 1 21.66 6h-4.49z"/>
+  </svg>
 
-      {/* Rundes Bild aus /public/alex.png */}
-      /alex.png
+  {/* Rundes Bild */}
+  
+    /alex.jpg
 
-      <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mt-4">
-        Willkommen beim TV Michelbach
-      </h2>
+  <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mt-4">
+    Willkommen beim TV Michelbach
+  </h2>
+
+</div>
 
     </div>
 
