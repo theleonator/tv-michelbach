@@ -31,10 +31,11 @@ const Index = () => {
         <div className="relative container-main py-20 text-primary-foreground">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-2xl leading-tight">
             Bewegung. Gemeinschaft. Leidenschaft.
-          </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-xl">
-            Seit 1903. inklusiv. progressiv. veranwortungsbewusst. In Michelbach.
-          </p>
+          </h1>         
+            <p className="text-lg text-muted-foreground leading-relaxed">
+            Seit 1903. inklusiv. progressiv. verantwortungsbewusst.<br />
+            In Michelbach.
+            </p>
           <Link to="/abteilungen">
             <Button variant="hero" size="lg">
               Unsere Abteilungen entdecken
