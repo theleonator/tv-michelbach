@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, ArrowRight, ChevronRight } from "lucide-react";
 import { departments } from "@/data/departments";
-import heroImage from "@/assets/hero-sports.jpg";
+import heroImage from "@/hero-sports.jpg";
 
 const newsItems = [
   { id: 1, title: "Sommersportfest 2025 – Ein voller Erfolg!", date: "15.03.2025", excerpt: "Über 300 Besucher feierten bei strahlendem Sonnenschein unser jährliches Sommersportfest. Höhepunkt war der Staffellauf der Abteilungen.", category: "Verein" },
@@ -27,7 +27,7 @@ const Index = () => {
     <div>
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center">
-        <img src={heroImage} alt="TV Michelbach Sportanlage" className="absolute inset-0 w-full h-full object-cover" width={1920} height={900} />
+        <img src="/hero-sports.jpg" alt="TV Michelbach Sportanlage" className="absolute inset-0 w-full h-full object-cover" width={1920} height={900} />
         <div className="absolute inset-0 gradient-hero-overlay" />
         <div className="relative container-main py-20 text-primary-foreground">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-2xl leading-tight">
