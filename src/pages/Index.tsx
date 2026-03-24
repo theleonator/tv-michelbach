@@ -68,7 +68,7 @@ const Index = () => {
       </section>
 
       {/* Vereinsvorstellung */}
-      <section className="section-padding bg-muted">
+      <section className="section-padding" style={{ backgroundColor: "rgba(146, 208, 103, 0.7)" }}>
         <div className="container-main max-w-3xl text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Willkommen beim TV Michelbach</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
