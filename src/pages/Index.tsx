@@ -68,7 +68,7 @@ const Index = () => {
       </section>
 
       {/* Vereinsvorstellung */}
-      <section className="section-padding" style={{ backgroundColor: "#5DA158B3)" }}>
+      <section className="section-padding" style={{ backgroundColor: "rgba(93, 161, 88, 0.7)" }}>
         <div className="container-main max-w-3xl text-center">
 <div className="flex flex-col items-center mb-6">
   <svg 
