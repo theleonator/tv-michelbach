@@ -85,8 +85,8 @@ const Index = () => {
         <path d="M7.17 6A4.17 4.17 0 0 0 3 10.17V18h6v-8H6.83A2.83 2.83 0 0 1 9.66 6H7.17zm10 0A4.17 4.17 0 0 0 13 10.17V18h6v-8h-2.17A2.83 2.83 0 0 1 21.66 6h-4.49z"/>
       </svg>
 
-      {/* Rundes Bild aus /public/alex.jpg */}
-      /alex.jpg
+      {/* Rundes Bild aus /public/alex.png */}
+      /alex.png
 
       <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mt-4">
         Willkommen beim TV Michelbach
