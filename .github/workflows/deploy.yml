@@ -1,4 +1,4 @@
-name: Deploy Next.js Static Export to GitHub Pages
+name: Deploy Vite site to GitHub Pages
 
 on:
   push:
@@ -14,10 +14,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
@@ -25,21 +25,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build and Export Next.js
-        run: |
-          npm run build
-          npm run export
+      - name: Build Vite project
+        run: npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./out
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+      - name: Upload dist folder
