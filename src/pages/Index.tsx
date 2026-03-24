@@ -33,7 +33,7 @@ const Index = () => {
             Bewegung. Gemeinschaft. Leidenschaft.
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-xl">
-            Seit 1903 vereinen wir Sport, Spaß und Zusammenhalt im Herzen von Michelbach.
+            Seit 1903. inklusiv. progressiv. veranwortungsbewusst. In Michelbach.
           </p>
           <Link to="/abteilungen">
             <Button variant="hero" size="lg">
