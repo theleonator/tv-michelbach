@@ -38,7 +38,6 @@ const Index = () => {
           <Link to="/abteilungen">
             <Button variant="hero" size="lg">
               Unsere Abteilungen entdecken
-              <ArrowRight size={18} />
             </Button>
           </Link>
         </div>
