@@ -100,8 +100,9 @@ const Index = () => {
                   </div>
               
                   <p className="text-lg text-white leading-relaxed">
-                    Seit 1903. inklusiv. progressiv. verantwortungsbewusst.<br />
-                    In Michelbach.
+                    Lassen Sie uns weiter das, was unsere Gründungsmitglieder des TV Michelbach
+                    veranlasst hat diesen Verein zu gründen, Gemeinschaft, Spaß am Sport und Respekt dem
+                    anderen gegenüber am Leben erhalten.
                   </p>
               
                 </div>
